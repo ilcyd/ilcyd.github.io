@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">{ }</span>
+                <span class="brand-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">👋 Hello, I'm</p>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Ilcyd Phernan P. Revantad</span>
+                </h1>
+                <h2 class="hero-subtitle">Full Stack Developer & Problem Solver</h2>
+                <p class="hero-description">
+                    Crafting innovative digital solutions across healthcare, civic technology, 
+                    e-commerce, and education. Transforming ideas into impactful applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8+</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/profile.jpg" alt="Profile" onerror="this.src='https://via.placeholder.com/400x500/667eea/ffffff?text=Your+Photo'">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hi, I'm a passionate <span class="highlight">Full Stack Developer</span></h3>
+                    <p>
+                        With a strong foundation in both frontend and backend development, I specialize in 
+                        creating comprehensive web applications that solve real-world problems. My journey 
+                        in software development has led me to work on diverse projects spanning multiple industries.
+                    </p>
+                    <p>
+                        I believe in writing clean, maintainable code and creating user experiences that are 
+                        both intuitive and powerful. Every project I undertake is an opportunity to learn, 
+                        innovate, and make a positive impact.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Clean Code Advocate</h4>
+                                <p>Writing maintainable, scalable solutions</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Problem Solver</h4>
+                                <p>Creative solutions to complex challenges</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>User-Focused</h4>
+                                <p>Designing with the end-user in mind</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Journey</span>
+                <h2 class="section-title">Experience & Expertise</h2>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="exp-icon healthcare">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Healthcare Solutions</h3>
+                    <p>
+                        Developed comprehensive clinic management systems featuring patient records, 
+                        appointment scheduling, prescription management, and staff coordination. 
+                        Enhanced healthcare delivery through digital transformation.
+                    </p>
+                    <ul class="exp-features">
+                        <li><i class="fas fa-check"></i> Patient Management Systems</li>
+                        <li><i class="fas fa-check"></i> Appointment Scheduling</li>
+                        <li><i class="fas fa-check"></i> Medical Records Integration</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-icon civic">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h3>Civic Technology</h3>
+                    <p>
+                        Created secure electronic voting systems with real-time results, voter authentication, 
+                        and comprehensive admin dashboards. Empowering democratic processes through 
+                        transparent and accessible technology.
+                    </p>
+                    <ul class="exp-features">
+                        <li><i class="fas fa-check"></i> Secure Authentication</li>
+                        <li><i class="fas fa-check"></i> Real-time Vote Tracking</li>
+                        <li><i class="fas fa-check"></i> Results Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-icon agriculture">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h3>Agriculture & Veterinary</h3>
+                    <p>
+                        Built farm and veterinary management platforms connecting farmers with services, 
+                        product marketplaces, and reservation systems. Supporting agricultural communities 
+                        through digital innovation.
+                    </p>
+                    <ul class="exp-features">
+                        <li><i class="fas fa-check"></i> Farm Management Tools</li>
+                        <li><i class="fas fa-check"></i> Product Marketplace</li>
+                        <li><i class="fas fa-check"></i> Service Booking System</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-icon education">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education Platforms</h3>
+                    <p>
+                        Developed school management systems, thesis tracking platforms, and online booking 
+                        systems. Streamlining educational processes and improving institutional efficiency.
+                    </p>
+                    <ul class="exp-features">
+                        <li><i class="fas fa-check"></i> Student Information Systems</li>
+                        <li><i class="fas fa-check"></i> Thesis Management</li>
+                        <li><i class="fas fa-check"></i> Online Booking</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-icon ecommerce">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>
+                        Created online stores, rental management systems, and marketplace platforms with 
+                        integrated payment systems. Enabling businesses to thrive in the digital economy.
+                    </p>
+                    <ul class="exp-features">
+                        <li><i class="fas fa-check"></i> Payment Integration</li>
+                        <li><i class="fas fa-check"></i> Inventory Management</li>
+                        <li><i class="fas fa-check"></i> Order Processing</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-icon services">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Service Platforms</h3>
+                    <p>
+                        Built pet adoption platforms, lending systems, and rental management solutions. 
+                        Creating digital bridges between service providers and users.
+                    </p>
+                    <ul class="exp-features">
+                        <li><i class="fas fa-check"></i> Booking Systems</li>
+                        <li><i class="fas fa-check"></i> User Management</li>
+                        <li><i class="fas fa-check"></i> Transaction Processing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    A showcase of real-world applications I've built, demonstrating versatility and expertise
+                </p>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="civic">Civic Tech</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+                <button class="filter-btn" data-filter="services">Services</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Arsenal</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bootstrap & Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flutter</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="93"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL & Database Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RESTful APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & Version Control</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Composer & Package Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">XAMPP & Development Environment</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Payment Integration (PayPal, Stripe)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Core Competencies</h3>
+                    </div>
+                    <div class="competencies-grid">
+                        <div class="competency-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security & Authentication</span>
+                        </div>
+                        <div class="competency-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database Architecture</span>
+                        </div>
+                        <div class="competency-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="competency-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Performance Optimization</span>
+                        </div>
+                        <div class="competency-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>System Integration</span>
+                        </div>
+                        <div class="competency-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Debugging & Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Have a project in mind? Let's discuss how we can work together
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>
+                        I'm always interested in hearing about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <a href="mailto:phernan667@gmail.com">phernan667@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Phone</h4>
+                                <a href="tel:+639606668456">+63 960 666 8456</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Location</h4>
+                                <p>Zamboanga Sibugay, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>{ Portfolio }</h3>
+                    <p>Building digital solutions that matter</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Connect</h4>
+                    <p>phernan667@gmail.com</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
